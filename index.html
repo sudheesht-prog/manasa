@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta property="og:title" content="Manasa – Yoga met Anjana">
-<meta property="og:description" content="Zachte senioren- en stoelyoga voor zorginstellingen, dagbesteding en buurtgroepen in Utrecht en omgeving.">
+<meta property="og:description" content="Zachte stoel- en seniorenyoga voor zorginstellingen in Utrecht, met ervaring uit ouderenzorg, ziekenhuis, speciaal onderwijs en counseling.">
 <meta property="og:url" content="https://manasa.nl/">
 <title>Manasa – Yoga met Anjana</title>
 <meta name="description" content="Zachte senioren- en stoelyoga voor zorginstellingen, dagbesteding en buurtgroepen in Utrecht en omgeving.">
@@ -192,6 +192,17 @@ section{padding-block:clamp(56px,8vw,104px)}
 .prior h3{font-size:1.05rem;color:var(--ink-soft)}
 .prior li{font-size:.9rem;color:var(--ink-soft)}
 .prior li span{font-size:.82rem}
+.uniq-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,5vw,64px);align-items:center}
+.uniq-intro{display:grid;gap:18px;min-width:0}
+.uniq-intro h2{font-size:var(--step-3);font-weight:800}
+.uniq-intro p{color:var(--ink-soft);font-size:var(--step-1)}
+.uniq-intro .uniq-claim{background:var(--mustard);color:var(--mustard-ink);font-family:var(--display);font-weight:700;padding:16px 20px;border-radius:14px}
+.uniq-list{list-style:none;margin:0;padding:6px 26px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);min-width:0}
+.uniq-list li{padding:18px 0;border-bottom:1px solid var(--line);display:grid;gap:4px}
+.uniq-list li:last-child{border-bottom:none}
+.uniq-list h3{font-size:var(--step-1)}
+.uniq-list p{color:var(--ink-soft)}
+@media (max-width:860px){.uniq-grid{grid-template-columns:1fr}}
 @media (max-width:860px){.exp-grid{grid-template-columns:1fr}}
 
 /* gallery */
@@ -226,6 +237,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Manasa – Yoga met Anjana"><span class="logo-mark" aria-hidden="true"></span><span class="brand-sub">Yoga met Anjana</span></a>
     <nav class="links" aria-label="Hoofdmenu">
+      <a href="#uniek"><span lang="nl">Uniek</span><span lang="en">Why me</span></a>
       <a href="#ervaring"><span lang="nl">Ervaring</span><span lang="en">Experience</span></a>
       <a href="#aanbod"><span lang="nl">Aanbod</span><span lang="en">Classes</span></a>
       <a href="#over"><span lang="nl">Over Anjana</span><span lang="en">About</span></a>
@@ -248,8 +260,8 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
           <span lang="en">Gentle yoga for <em>every</em> age</span>
         </h1>
         <p class="lede">
-          <span lang="nl">Ik geef aangepaste yoga aan ouderen in zorginstellingen. Mijn lessen helpen mensen soepel te bewegen, rustig te ademen en zich verbonden te voelen, ongeacht hun leeftijd of mobiliteit.</span>
-          <span lang="en">I teach adapted yoga to older adults in care settings. My classes help people move more easily, breathe calmly and feel connected, whatever their age or mobility.</span>
+          <span lang="nl">Ik geef aangepaste yoga aan ouderen in zorginstellingen, en breng daarbij mijn ervaring uit de ouderenzorg, het ziekenhuis, het speciaal onderwijs en counseling mee. Mijn lessen helpen mensen soepel te bewegen, rustig te ademen en zich verbonden te voelen, ongeacht hun leeftijd of mobiliteit.</span>
+          <span lang="en">I teach adapted yoga to older adults in care settings, bringing my experience from elderly care, hospital work, special education and counselling. My classes help people move more easily, breathe calmly and feel connected, whatever their age or mobility.</span>
         </p>
         <div class="ctas">
           <a class="btn primary" href="#contact"><span lang="nl">Plan een proefles</span><span lang="en">Book a trial class</span> →</a>
@@ -268,9 +280,28 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
       <li><span lang="nl">Lessen in Nederlands en Engels</span><span lang="en">Classes in Dutch and English</span></li>
       <li><span lang="nl">Zittend of staand met steun</span><span lang="en">Seated or standing with support</span></li>
       <li><span lang="nl">Afgestemd op elke groep</span><span lang="en">Tailored to every group</span></li>
-      <li><span lang="nl">Achtergrond in zorg en onderwijs</span><span lang="en">Background in care and education</span></li>
+      <li><span lang="nl">Ervaring in zorg, ziekenhuis en onderwijs</span><span lang="en">Experience in care, hospital and education</span></li>
     </ul>
   </div>
+
+  <section class="uniq" id="uniek">
+    <div class="wrap">
+      <div class="uniq-grid">
+        <div class="uniq-intro">
+          <div class="eyebrow"><span lang="nl">Wat mij uniek maakt</span><span lang="en">What makes me different</span></div>
+          <h2><span lang="nl">Zorg, onderwijs en yoga in één les</span><span lang="en">Care, education and yoga in one class</span></h2>
+          <p><span lang="nl">Ik ben niet alleen yogadocent. Ik werkte in een ziekenhuis, in het speciaal onderwijs en als counselor. Die ervaring neem ik mee in elke les.</span><span lang="en">I'm not only a yoga teacher. I have worked in a hospital, in special education and as a counsellor, and I bring that experience into every class.</span></p>
+          <p class="uniq-claim"><span lang="nl">Zo voelt iedere deelnemer zich gezien, veilig en welkom.</span><span lang="en">So every participant feels seen, safe and welcome.</span></p>
+        </div>
+        <ul class="uniq-list">
+          <li><h3><span lang="nl">Yoga in de ouderenzorg</span><span lang="en">Yoga in elderly care</span></h3><p><span lang="nl">Ik ken het ritme van een woonzorgcentrum en werk nauw samen met zorgmedewerkers en familie.</span><span lang="en">I know the rhythm of a care home and work closely with care staff and families.</span></p></li>
+          <li><h3><span lang="nl">Ziekenhuis: medisch maatschappelijk werk</span><span lang="en">Hospital: medical social work</span></h3><p><span lang="nl">Ik steunde patiënten en families, samen met artsen en fysiotherapeuten. Ik let goed op gezondheid en grenzen.</span><span lang="en">I supported patients and families alongside doctors and physiotherapists. I pay close attention to health and limits.</span></p></li>
+          <li><h3><span lang="nl">Docent speciaal onderwijs</span><span lang="en">Special education teacher</span></h3><p><span lang="nl">Ik pas elke oefening aan op wat iemand kan, stap voor stap en zonder haast.</span><span lang="en">I adapt every exercise to what each person can do, step by step and without rushing.</span></p></li>
+          <li><h3><span lang="nl">Counselor</span><span lang="en">Counsellor</span></h3><p><span lang="nl">Ik luister rustig en geef steun bij stress, angst en onrust.</span><span lang="en">I listen calmly and offer support with stress, anxiety and restlessness.</span></p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
   <section class="exp" id="ervaring">
     <div class="wrap">
@@ -308,10 +339,10 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
         <aside class="edu prior">
           <h3><span lang="nl">Eerdere ervaring</span><span lang="en">Earlier experience</span></h3>
           <ul>
-            <li><span lang="nl">Teamleider en trainer magazijn</span><span lang="en">Warehouse team leader &amp; trainer</span><span>Picnic, Utrecht · 2022–2023</span></li>
             <li><span lang="nl">Medisch maatschappelijk werker</span><span lang="en">Medical social worker</span><span>Amrutha Multi Specialty Hospital, India · 2011</span></li>
             <li><span lang="nl">Docent speciaal onderwijs</span><span lang="en">Special education teacher</span><span>Vigyan Valley Learning Centre, India · 2009–2011</span></li>
             <li><span lang="nl">Counselor</span><span lang="en">Counsellor</span><span>Santhwana Institute, India · 2007–2008</span></li>
+            <li><span lang="nl">Teamleider en trainer magazijn</span><span lang="en">Warehouse team leader &amp; trainer</span><span>Picnic, Utrecht · 2022–2023</span></li>
           </ul>
         </aside>
         </div>
@@ -385,7 +416,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
         <h2 style="font-size:var(--step-3);font-weight:800"><span lang="nl">Hallo, ik ben Anjana Sasidharan</span><span lang="en">Hello, I'm Anjana Sasidharan</span></h2>
         <p><span lang="nl">Ik ben yogadocent in Utrecht en geef al drie jaar zachte, aangepaste yoga aan ouderen in Nederlandse zorginstellingen.</span><span lang="en">I'm a yoga teacher based in Utrecht, and for three years I have been teaching gentle, adapted yoga to older adults in Dutch care homes.</span></p>
         <p class="pull"><span lang="nl">Ik kijk goed, pas elke houding aan op de persoon voor mij en zorg voor een veilige, warme sfeer waarin iedereen kan meedoen.</span><span lang="en">I watch closely, adapt every pose to the person in front of me, and create a safe, warm atmosphere where everyone can take part.</span></p>
-        <p><span lang="nl">Sinds december 2024 werk ik vier dagen per week als yogadocent en activiteitenbegeleider in de woonzorg. Mijn eerdere werk in maatschappelijk werk, counseling, speciaal onderwijs en teamleiding helpt me om rustig te luisteren, duidelijk uit te leggen en te zien wat ieder nodig heeft.</span><span lang="en">Since December 2024 I have worked four days a week as a yoga teacher and activity coordinator in residential care. My earlier work in social work, counselling, special education and team leadership helps me listen calmly, explain clearly and see what each person needs.</span></p>
+        <p><span lang="nl">Sinds december 2024 werk ik vier dagen per week als yogadocent en activiteitenbegeleider in de woonzorg. Ik combineer yoga met mijn ervaring in de ouderenzorg, het ziekenhuis, het speciaal onderwijs en counseling. Daardoor luister ik rustig, leg ik duidelijk uit en zie ik wat ieder nodig heeft.</span><span lang="en">Since December 2024 I have worked four days a week as a yoga teacher and activity coordinator in residential care. I combine yoga with my experience in elderly care, hospital work, special education and counselling. That is why I listen calmly, explain clearly and see what each person needs.</span></p>
         <div class="edu-block">
           <h3><span lang="nl">Opleiding en certificaten</span><span lang="en">Education &amp; certificates</span></h3>
           <ul class="edu-list">
