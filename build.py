@@ -17,6 +17,7 @@ ld = [{
   "address": {"@type": "PostalAddress", "addressLocality": "Utrecht", "addressCountry": "NL"},
   "areaServed": ["Utrecht", "Leidsche Rijn", "Vleuten", "De Meern", "Maarssen", "Nieuwegein", "Houten", "Zeist"],
   "email": "info@manasa.nl",
+  "sameAs": ["https://www.instagram.com/yogametanjana/"],
   "knowsLanguage": ["nl", "en"],
   "serviceType": ["Stoelyoga", "Seniorenyoga", "Yoga voor ouderen", "Ademhaling en ontspanning"],
   "identifier": {"@type": "PropertyValue", "propertyID": "KvK", "value": "92138586"}
